@@ -1,0 +1,735 @@
+@charset "UTF-8";
+/*
+ÞEMA
+
+UPPÁHALDS LITIR
+
+SÆGRÆNN: 00AD82;
+
+/* Global 
+-------------*/
+
+
+	body, html {
+		height: 100%;
+		width: 100%;
+		background-color: #f1f1f1;
+	  	margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family:'Open Sans', "Century Gothic", avenir, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		margin: 0;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+	}
+
+/*------------------------------------------------------------------- HEADER
+----------------------------------------------------------------------------*/
+	#header {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		height: 100px;
+		background-color: #FFD062;
+		z-index: 2;
+		border-bottom: solid 3px #333;
+	}
+
+	#header ul {
+		margin-top: 38px;
+		padding: 0;
+		list-style-type: none;
+		text-align: right;
+		position: relative;
+		right: 35px;
+	}
+
+	#header ul li {
+		font-family: Helvetica Narrow, sans-serif;
+		display: inline;
+		color: #333;
+		margin: 0px 15px;
+		font-size: 1.35em;
+	}
+
+	#header ul li:hover {
+		font-family: Helvetica Narrow, sans-serif;
+		display: inline;
+		color: #666;
+		margin: 0px 15px;
+		font-size: 1.35em;
+	}
+
+/*---TEKUR LÍNU UNDIR STÖFUNUM---*/ 
+	a:link {
+    text-decoration: none;
+}
+
+	a:visited {
+    text-decoration: none;
+}
+
+	a:hover {
+    text-decoration: none;
+}
+
+	a:active {
+    text-decoration: none;
+}
+
+/*------------------------------------------------------------------- SECTIONS
+------------------------------------------------------------------------------*/
+		#section1 {
+		background-color: #FFD040;
+		width: 100%;
+		height: 679px;
+		position: relative;
+		left: 0px;
+		top: 100px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section2 {
+		background-color: #FFD040;
+		width: 100%;
+		height: 550px;
+		right: 0px;
+		left: 0px;
+		position: absolute;
+		top: 682px;
+		display: inline-block;
+		border-top: solid 3px #333;
+		}
+
+
+		#section3 {
+		width: 100%;
+		height: 850px;
+		right: 0px;
+		left: 0px;
+		background-image: url('../img/kort1.jpg');
+		background-size: cover;
+		position: absolute;
+		top: 1231px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section4 {
+		width: 100%;
+		height: 650px;
+		right: 0px;
+		left: 0px;
+		background-color: #FFD040;
+		background-size: cover;
+		position: absolute;
+		top: 2081px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section5 {
+		width: 100%;
+		height: 679px;
+		right: 0px;
+		left: 0px;
+		background-color: #FFD040;
+		background-size: cover;
+		position: absolute;
+		top: 2731px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+/*---FROM -/- INPUT---*/ 
+
+		.emailform {
+			margin: 10px 20px;
+			position: relative;
+			left: 80px;
+			width: 80%;
+		}
+		
+		.emailform p {
+			line-height: 12px;
+			font-size: 12px;
+			color: #777;
+		}
+
+		.frontInput {
+			border: solid 0px #ccc;
+			border-radius: 5px ;
+			width: 30%;
+			height: 40px;
+			font-size: 15px;
+			padding: 0px 20px;
+		}
+
+		.frontSubmit {
+			border: solid 0px #ccc;
+			border-radius: 5px ;
+			width: 15%;
+			height: 40px;
+			font-size: 12px;
+			font-weight: bold;
+			background-color: #FFDE9D;
+		}
+
+		
+
+/*------------------------------------------------------------------- MYNDIR
+----------------------------------------------------------------------------*/
+#logo {
+		top:27px;
+	  	left: 20px;
+  		position: fixed;
+  		z-index: 3;
+}	
+
+#info {
+		top:21px;
+	  	left: 340px;
+  		position: fixed;
+  		z-index: 3;
+}
+
+#bus {
+	position: absolute;
+	top: 3180px;
+	left: 895px;
+	z-index: 1;
+}
+
+#house {
+	position: absolute;
+	top: 3180px;
+	left: 220px;
+	z-index: 1;
+}
+
+#cutlery {
+	position: absolute;
+	top: 2990px;
+	left: 220px;
+	z-index: 1;
+}
+
+#directions {
+	position: absolute;
+	top: 2990px;
+	left: 895px;
+	z-index: 1;
+}
+
+#help {
+	position: absolute;
+	top: 2720px;
+	left: 445px;
+	z-index: 1;
+}
+
+#wifi {
+	position: absolute;
+	top: 940px;
+	left: 200px;
+	z-index: 1;
+}
+
+#car {
+	position: absolute;
+	top: 2130px;
+	left: 900px;
+	z-index: 1;
+}
+
+#hjol {
+	position: absolute;
+	top: 320px;
+	left: 620px;
+	z-index: 1;
+}
+
+
+
+/*------------------------------------------------------------------- h1,2,3,4
+------------------------------------------------------------------------------*/
+	h1 {
+		font-size: 55px;
+		text-align: left;
+		margin-left: 100px;
+		margin-top: 10px;
+		font-family: "Arial Black", Gadget, sans-serif;
+		color: #222;
+	}
+
+
+
+/*------------------------------------------------------------------- KASSAR
+-----------------------------------------------------------------------------*/
+	#kassi2 {
+		color: #fff;
+		padding-top: 0px;
+		text-align: center;
+		font-size: 25px;
+		position: absolute;
+		top: 2440px;
+		left: 0px;
+		width: 100.4%;
+		height: 185px;
+		background-color: #000;
+		opacity: 0.5;
+	}
+
+		#kassi3 {
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		font-size: 22px;
+		position: absolute;
+		top: 3005px;
+		left: 450px;
+		width: 30%;
+		height: 380px;
+		background-color: #000;
+		opacity: 0.5;
+	}
+
+		#kassi4 {
+		color: #000;
+		text-align: left;
+		font-size: 5px;
+		position: absolute;
+		top: 1295px;
+		left: 90px;
+		width: 55%;
+		height: 30px;
+		}
+
+		#kassi5 {
+		color: #000;
+		text-align: left;
+		font-size: 5px;
+		position: absolute;
+		top: 2320px;
+		left: 75px;
+		width: 55%;
+		height: 30px;
+		}
+
+	p {
+		font-family: "Arial Black", Gadget, sans-serif;
+	}
+
+/*------------------------------------------------------------- LINKAR Á KORT
+-----------------------------------------------------------------------------*/
+a#kefairport_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 266px;
+    top: 1850px;
+    width: 75px;
+    height: 61px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#bluelagoon_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 310px;
+    top: 1930px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#whalewatching_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#goldencircle_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 565px;
+    top: 1914px;
+    width: 160px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#geysir_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 568px;
+    top: 1860px;
+    width: 70px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#thorsmork_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 565px;
+    top: 1760px;
+    width: 96px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#carrental_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 485px;
+    top: 1630px;
+    width: 96px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#jokulsarlon_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 878px;
+    top: 1860px;
+    width: 120px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#helicopter_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 865px;
+    top: 1360px;
+    width: 230px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#nordurljos_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 865px;
+    top: 1360px;
+    width: 230px;
+    height: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#hestar_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#hotsprings_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#rafting_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#glacier_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+a#seabird_link {
+	position: absolute;
+    display: block;
+    visibility: visible; ;
+    left: 285px;
+    top: 1780px;
+    width: 120px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+}
+
+	@media screen and (max-width:500px){
+
+		h1 {
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		#header {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 150px;
+			background-color: #FFD062;
+			z-index: 2;
+			border-bottom: solid 3px #333;
+			overflow: hidden;
+		}
+
+		#ul-wrapper {
+			margin-top: 70px;
+			overflow: scroll;
+			min-width: 900px;
+			background-color: #fff;
+			padding: 0px 0px;
+			text-align: left;
+		}
+
+		#header ul {
+			padding: 0;
+			list-style-type: none;
+			text-align: left;
+			overflow: scroll;
+		}
+
+		#header ul li {
+			font-family: Helvetica Narrow, sans-serif;
+			display: inline;
+			color: #333;
+			margin: 0px 15px;
+			font-size: 1.35em;
+		}
+
+		/*------------------------------------------------------------------- SECTIONS
+------------------------------------------------------------------------------*/
+		#section1 {
+		background-color: #FFD040;
+		width: 100%;
+		height: 679px;
+		position: absolute;
+		left: 0px;
+		top: 150px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section2 {
+		background-color: #FFD040;
+		background-size: cover;
+		width: 100%;
+		height: 550px;
+		right: 0px;
+		left: 0px;
+		position: absolute;
+		top: 682px;
+		display: inline-block;
+		border-top: solid 3px #333;
+		}
+
+
+		#section3 {
+		width: 100%;
+		height: 850px;
+		right: 0px;
+		left: 0px;
+		background-color: #FFD040;
+		background-image: url('../img/kort1.jpg');
+		background-size: 320px;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 1231px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section4 {
+		width: 100%;
+		height: 650px;
+		right: 0px;
+		left: 0px;
+		background-color: #FFD040;
+		background-size: cover;
+		position: absolute;
+		top: 2081px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+		#section5 {
+		width: 100%;
+		height: 679px;
+		right: 0px;
+		left: 0px;
+		background-color: #FFD040;
+		background-size: cover;
+		position: absolute;
+		top: 2731px;
+		border-top: solid 3px #333;
+		display: inline-block;
+		}
+
+/*---FROM -/- INPUT---*/ 
+
+		.emailform {
+			margin: 10px 20px;
+			position: relative;
+			left: 10px;
+		}
+		
+		.emailform p {
+			line-height: 12px;
+			font-size: 12px;
+			color: #777;
+		}
+
+		.frontInput {
+			border: solid 0px #ccc;
+			border-radius: 5px ;
+			width: 80%;
+			height: 40px;
+			font-size: 15px;
+			padding: 0px 20px;
+			-webkit-appearance: button;
+		}
+
+		.frontSubmit {
+			border: solid 0px #ccc;
+			border-radius: 5px;
+			width: 93%;
+			height: 40px;
+			font-size: 12px;
+			font-weight: bold;
+			background-color: #FFDE9D;
+			-webkit-appearance: button;
+			margin: 10px 0px;
+		}
+
+		
+
+/*------------------------------------------------------------------- MYNDIR
+----------------------------------------------------------------------------*/
+#logo {
+		top:27px;
+	  	left: 20px;
+  		position: fixed;
+  		z-index: 3;
+}	
+
+#info {
+		top:21px;
+	  	left: 340px;
+  		position: fixed;
+  		z-index: 3;
+}
+
+#bus {
+	position: absolute;
+	top: 3180px;
+	left: 895px;
+	z-index: 1;
+}
+
+#house {
+	position: absolute;
+	top: 3180px;
+	left: 220px;
+	z-index: 1;
+}
+
+#cutlery {
+	position: absolute;
+	top: 2990px;
+	left: 220px;
+	z-index: 1;
+}
+
+#directions {
+	position: absolute;
+	top: 2990px;
+	left: 895px;
+	z-index: 1;
+}
+
+#help {
+	position: absolute;
+	top: 2720px;
+	left: 445px;
+	z-index: 1;
+}
+
+#wifi {
+	position: absolute;
+	top: 840px;
+	left: 10px;
+	z-index: 1;
+	height:100px;
+	width:100px;
+}
+
+#car {
+	position: absolute;
+	top: 2130px;
+	left: 900px;
+	z-index: 1;
+}
+
+#hjol {
+	position: absolute;
+	top: 320px;
+	left: 620px;
+	z-index: 1;
+	display: none;
+}
+
+
+
+	}
